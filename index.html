@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-	
 	<head>
 		<title>Bernstein Captions BETA</title>
 		<!-- Dependencies -->
@@ -16,24 +15,25 @@
 		<script src="build/ableplayer.min.js"></script>
 	</head>
 	
-	<body>
+	<body bgcolor="#000000"> 
+		<h1 style = "color: #FFFFFF"> What Does Music Mean? </h1>
 		
 		<!-- Video File -->
 		<video id="video1" data-able-player preload="auto" width="480" height="360" poster="Cover.jpg">
  		<source type="video/webm" src="Music.webm"/>
   		<source type="video/mp4" src="Music.mp4"/>
-  		<track kind="captions" src="captions_musicalcues.vtt" srclang="en" label="Musical Cues"/>
   		<track kind="captions" src="captions_script.vtt" srclang="es" label="Script"/>
   		<track kind="captions" src="captions_transcript.vtt" srclang="ed" label="Transcript"/>
-		<track kind="descriptions" src="descriptions_musicalcues.vtt" srclang="en">
+		<track kind="captions" src="captions_musicalcues.vtt" srclang="en" label="Musical Cues"/>
 		<track kind="descriptions" src="descriptions_script.vtt" srclang="es">
 		<track kind="descriptions" src="descriptions_script.vtt" srclang="ed">
-
-
+		<track kind="descriptions" src="descriptions_musicalcues.vtt" srclang="en">
 		</video>
 		
+		<img src="/button-icons/white/transcript.png"> 
+		<h5 style = "color: #FFFFFF"> Toggles the transcript. </h5>
+		<img src="/button-icons/white/captions.png"> 
+		<h5 style = "color: #FFFFFF"> Toggles the chosen document. </h5>
 
 	</body>
-
-
 </html>
