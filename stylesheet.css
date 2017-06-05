@@ -2,11 +2,6 @@ body {
 	background-color: #000000;
 }
 
-#headliner {
-	color: #FFFFFF;
-	text-align: center;
-}
-
 h1 {
 	color: #FFFFFF;
 }
@@ -16,7 +11,40 @@ h5 {
 	display: inline;
 }
 
+a {
+	text-decoration: none;
+}
 
-img {
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#headliner {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#instructions {
+	background-color: #000000;
+	display: inline-block;
+}
+
+#searchbutton {
+
+	height: 30px;
+    width: 100px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#results-wrapper {
+
+	color: #FFFFFF;
 	display: inline;
 }
