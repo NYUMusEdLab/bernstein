@@ -23,7 +23,7 @@
 		<h5> (See Instructions Below) </h5>
 		</div>
 
-		<div id="player">
+		<div class="container">
 		<!-- Video Player -->
 		<video id="video1" data-able-player preload="auto" width="480" height="360" poster="Cover.jpg" data-search="Beethoven" data-search-div="results" data-include-transcript="false">
  		<source type="video/webm" src="Music.webm"/>
@@ -35,16 +35,19 @@
 		<track kind="descriptions" src="descriptions_script.vtt" srclang="ed">
 		<track kind="descriptions" src="descriptions_musicalcues.vtt" srclang="en">
 		</video>
-		</div>
-
-
-
- 	 <div id="results-wrapper">
+		<iframe class="doc" src="Document.pdf" height=500 width=400 ></iframe>
+ 	 	
+ 	 	<div id="results-wrapper">
    		 <h2>Your Search Results</h2>
    		 <p>You searched for: <span id="search-term">Beethoven</span></p>
    		 <div id="results" class="able-search-results"></div>
   		</div>
   		<div id="transcript"></div>
+		</div>
+
+
+
+
 
 	</body>
 </html>
