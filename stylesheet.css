@@ -15,7 +15,12 @@ a {
 	text-decoration: none;
 }
 
+input {
+	margin-left: 50px;
+}
+
 .container {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -27,13 +32,13 @@ a {
 }
 
 #instructions {
-	background-color: #000000;
+	height: 30px;
 	display: inline-block;
 }
 
 #searchbutton {
 
-	height: 30px;
+	height: 20px;
     width: 100px;
     background-color: #FFFFFF;
     display: inline-block;
@@ -44,7 +49,12 @@ a {
 }
 
 #results-wrapper {
-
-	color: #FFFFFF;
+	height: 500px;
+	width: 300px;
+	background-color: #FFFFFF;
 	display: inline;
+}
+
+#bottom-line {
+
 }
