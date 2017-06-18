@@ -4,7 +4,12 @@ function main() {
 	$("#searchbutton").click(function(){
 		alert("spicy");
 
-		location.reload;
+		var new_search = $("#video1");
+		new_search.prop("data-search", "tuning");
+		location.reload();
+
+
+
 	});
 
 }
