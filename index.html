@@ -20,6 +20,7 @@
 	<body> 
 		<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 		<script src="main.js"></script>
+		<script src="purl.js"></script>
 
 
 		<div id="headliner">
@@ -29,7 +30,8 @@
 
 		<div class="container">
 		<!-- Video Player -->
-		<video id="video1" data-able-player preload="auto" width="480" height="360" poster="Cover.jpg" data-search="Beethoven" data-search-div="results">
+		<!--<video id="video1" data-able-player preload="auto" width="480" height="360" poster="Cover.jpg" data-search="Beethoven" data-search-div="results">-->
+		<video id="video1" preload="auto" width="480" height="360" poster="Cover.jpg" data-search="Beethoven" data-search-div="results">
   		<source type="video/mp4" src="https://s3.amazonaws.com/musedlab-nyphil/bernstein/Music.mp4"/>
   		<track kind="captions" src="captions_script.vtt" srclang="es" label="Script"/>
   		<track kind="captions" src="captions_transcript.vtt" srclang="ed" label="Transcript"/>
@@ -41,7 +43,7 @@
 		<iframe class="doc" src="Document.pdf" height=500 width=400 ></iframe>
 		<div id="results-wrapper">
    		 <h2>Your Search Results</h2>
-   		 <p>You searched for: <span id="search-term">Beethoven</span></p>
+   		 <p>You searched for: <span id="search-term"></span></p>
    		 <div id="results" class="able-search-results"></div>
   		</div>
   		<div id="transcript"></div>
