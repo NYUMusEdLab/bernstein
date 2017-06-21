@@ -58,3 +58,11 @@ input {
 #bottom-line {
 
 }
+
+  #chapters {
+    width: 700px;
+    height: 950px;
+    background-color: #DEDEDE;
+    margin: 1em 1em 0 0;
+    border: 2px solid #340449;
+  }
