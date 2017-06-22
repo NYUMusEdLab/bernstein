@@ -1,6 +1,5 @@
 function main() {
 	var player = new AblePlayer($('#video1'));
-
 	var url = $.url().param("search");
 
 	//check for search term
