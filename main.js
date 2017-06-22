@@ -3,9 +3,8 @@ function main() {
 
 	var url = $.url().param("search");
 
-	//check for search
+	//check for search term
 	if (url != ""){
-
 
         $("#search-term").text(url);
         player.searchString = url;
@@ -13,10 +12,6 @@ function main() {
 
 
 	}
-
-
-
-
 
 	$("#searchbutton").click(function(){
 		var search_value = $("#search-bar").val();

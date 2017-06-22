@@ -4,48 +4,59 @@ body {
 
 h1 {
 	color: #FFFFFF;
+	text-align: center;
 }
 
 h5 {
 	color: #FFFFFF;
-	display: inline;
+	margin: 0px;
 }
-
 a {
 	text-decoration: none;
 }
 
-input {
-	margin-left: 50px;
-}
+.row-top {
 
-.container {
-	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-#headliner {
-	color: #FFFFFF;
-	text-align: center;
+.row-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
-#instructions {
-	height: 30px;
+#header {
+}
+
+#details {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+}
+
+#summary {
+	height: 60px;
+	width: 1000px;
+	margin: 20px;
+	text-align: justify;
 	display: inline-block;
 }
 
-#searchbutton {
+#chapters {
+    width: 359px;
+    height: 522px;
+    overflow: auto;
+    background-color: #DEDEDE;
+    margin-top: 16px;
+    border: 2px solid #340449;
+}
 
-	height: 20px;
-    width: 100px;
-    background-color: #FFFFFF;
-    display: inline-block;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    text-align: center;
+#document {
+	height: 522px;
+	margin-top: 16px;
 }
 
 #results-wrapper {
@@ -55,14 +66,28 @@ input {
 	display: inline;
 }
 
-#bottom-line {
-
+#search-bar {
+	margin-left: 30px;
+	height: 15px;
 }
 
-  #chapters {
-    width: 700px;
-    height: 950px;
-    background-color: #DEDEDE;
-    margin: 1em 1em 0 0;
-    border: 2px solid #340449;
-  }
+#searchbutton {
+
+	height: 22px;
+    width: 100px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/*
+#instructions {
+	height: 30px;
+	display: inline-block;
+}
+*/
