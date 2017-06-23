@@ -9,7 +9,7 @@ h1 {
 
 h5 {
 	color: #FFFFFF;
-	margin: 0px;
+	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -64,6 +64,7 @@ a {
 	width: 300px;
 	background-color: #FFFFFF;
 	display: inline;
+    overflow: auto;
 }
 
 #search-bar {
