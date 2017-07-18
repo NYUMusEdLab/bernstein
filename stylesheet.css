@@ -33,19 +33,31 @@ a {
 .episode_button {
 }
 
-#header {
-}
 
-#details {
+#details01 {
 	display: inline-block;
 	width: 200px;
 	height: 60px;
 }
 
-#summary {
+#summary01 {
 	height: 60px;
 	width: 1000px;
 	margin: 20px;
+	text-align: justify;
+	display: inline-block;
+}
+
+#details21 {
+	display: inline-block;
+	width: 220px;
+	height: 60px;
+}
+
+#summary21 {
+	height: 60px;
+	width: 1000px;
+
 	text-align: justify;
 	display: inline-block;
 }
