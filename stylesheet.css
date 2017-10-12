@@ -18,6 +18,22 @@ a {
 
 p {
 	color: #FFFFFF;
+	width: 750px;
+	text-align: justify;
+	margin-left: 25px;
+
+
+}
+
+ul {
+	color: #FFFFFF;
+	width: 500px;
+	text-align: justify;
+}
+
+
+.paragraph {
+	color: #FFFFFF;
 	width: 500px;
 	text-align: justify;
 	text-indent: 50px;
