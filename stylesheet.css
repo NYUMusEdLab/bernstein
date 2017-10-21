@@ -21,8 +21,6 @@ p {
 	width: 750px;
 	text-align: justify;
 	margin-left: 25px;
-
-
 }
 
 ul {
@@ -31,6 +29,11 @@ ul {
 	text-align: justify;
 }
 
+.back {
+	height: 80px;
+	width: 80px;
+	display: inline;
+}
 
 .paragraph {
 	color: #FFFFFF;
@@ -52,9 +55,6 @@ ul {
 	flex-direction: row;
 	justify-content: flex-start;
 	margin-top: 20px;
-}
-
-.episode_button {
 }
 
 /* Add a black background color to the top navigation */
@@ -87,34 +87,22 @@ ul {
     color: white;
 }
 
+.top {
+	display: flex;
+	flex-direction: row;
+}
 
-
-#details01 {
-	display: inline-block;
+#details {
 	width: 200px;
 	height: 60px;
+	margin-left: 20px;
 }
 
-#summary01 {
+#summary {
+	width: 900px;
 	height: 60px;
-	width: 1000px;
-	margin: 20px;
+	margin-left: 20px;
 	text-align: justify;
-	display: inline-block;
-}
-
-#details21 {
-	display: inline-block;
-	width: 220px;
-	height: 60px;
-}
-
-#summary21 {
-	height: 60px;
-	width: 1000px;
-
-	text-align: justify;
-	display: inline-block;
 }
 
 #chapters {
@@ -155,12 +143,3 @@ ul {
     margin-bottom: 20px;
     text-align: center;
 }
-
-
-
-/*
-#instructions {
-	height: 30px;
-	display: inline-block;
-}
-*/
