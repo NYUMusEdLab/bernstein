@@ -11,6 +11,7 @@ h5 {
 	color: #FFFFFF;
 	margin: 0;
 }
+
 a {
 	color: #FFFFFF;
 	text-decoration: none;
@@ -92,6 +93,13 @@ ul {
 	flex-direction: row;
 }
 
+#bernstein {
+	height: 400px;
+	width: 595px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
 #details {
 	width: 200px;
 	height: 60px;
@@ -133,7 +141,6 @@ ul {
 }
 
 #searchbutton {
-
 	height: 22px;
     width: 100px;
     background-color: #FFFFFF;
